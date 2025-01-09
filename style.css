@@ -1,0 +1,144 @@
+body
+{
+    background-color: gray;
+}
+nav
+{
+    background-color: rgb(255, 238, 213);
+    border-radius: 10px;
+}
+h1,li,ul
+{
+    color: rgb(14, 91, 143);
+    display: inline-block;
+}
+ul
+{
+    margin-left: 60%;
+}
+h1
+{
+    margin-left: 20px;
+    padding-left: 5px;
+    cursor: pointer;
+}
+li
+{
+ padding-left: 5px;  
+ cursor: pointer;
+}
+li:hover
+{
+    color: rgb(16, 186, 253);
+    text-shadow: 0 0 5px #10b2bb,
+              0 0 25px #03e9f4,
+              0 0 50px #03e9f4,
+              0 0 100px #03e9f4;
+    
+}
+h1:hover
+{
+    text-shadow: 0 0 5px #10b2bb,
+    0 0 25px #03e9f4,
+    0 0 50px #03e9f4,
+    0 0 100px #03e9f4; 
+}
+input
+{
+    width: 50%;
+    text-align: center;
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    
+}
+.Products
+{
+    padding: 50px; 
+
+}
+.box
+{
+    
+    padding: 10px;
+    display: inline-block;
+    border: 5px;
+    border-color:rgb(75, 104, 124);
+    border-style: solid;
+    border-radius: 5px;
+    margin: 4%;
+    width: 220px;
+    overflow: hidden;
+    transition:background-color 0.5s ease-in;
+    
+}
+.box:hover
+{
+    background-color: black;
+    color: white;
+}
+.box img
+{
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease;
+}
+.box:hover img
+{
+    transform: scale(1.2);   
+}
+hr
+{
+    margin-top: 30px;
+}
+P
+{
+   color: aliceblue;
+    display: inline-block;
+    width: 200px;
+}
+.about
+{
+    margin-top: -30px;
+    text-align: center;
+}
+.about h1
+{
+    margin-top: -50px;
+}
+.about p
+{
+    cursor: pointer;
+    text-align: center;
+    width: 70%;
+}
+.about p:hover
+{
+    text-shadow: 0 0 5px #10b2bb,
+    0 0 25px #03e9f4,
+    0 0 50px #03e9f4,
+    0 0 100px #03e9f4; 
+}
+.contact
+{
+    height: 70px;
+    border-radius: 10px; 
+    background-color: rgb(235, 210, 172);
+    text-align: center;
+}
+.contact h3
+{margin-top: 7px;
+    color: rgb(14, 91, 143);
+   display: inline-block;
+}
+.address h3
+{
+    color: rgb(14, 91, 143);
+    display: inline-block;
+    margin-top: -70px;
+}
+hr
+{
+    background-color:  rgb(14, 91, 143);
+    ;
+}
